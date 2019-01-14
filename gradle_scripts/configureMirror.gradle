@@ -1,0 +1,9 @@
+ext {
+  configureMavenUrl = { repositories, repoUrl ->
+    if (repoUrl) {
+      repositories.maven {
+        url repoUrl
+      }
+    }
+  }
+}

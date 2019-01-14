@@ -1,0 +1,5 @@
+// If you use mirror repositories, change this file name to "mirrorConfig.gradle"
+ext {
+  gradleOrgMirror = 'http://my-nexus.example.com:18081/repository/gradle-org/'
+  mavenCentralMirror = 'http://my-nexus.example.com:18081/repository/maven-central/'
+}
